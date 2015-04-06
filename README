@@ -1,12 +1,12 @@
-Copyright ⓒ 2014  Benjamin Mako Hill (http://mako.cc/)
+Copyright ⓒ 2014-2015  Benjamin Mako Hill (http://mako.cc/)
 
-Released as free software under the GNU General Public License v2 or any
-later version.
+Released as free software under the GNU General Public License v3 or any later
+version.
 
 These are example programs for use in the Community Data Science
 Workshops. More details are available here:
 
-https://openhatch.org/wiki/Community_Data_Science_Workshops
+http://wiki.communitydata.cc/Community_Data_Science_Workshops
 
 Data for this project (the txt files) are downloaded from the US Social
 Security administration and are public domain:

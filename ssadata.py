@@ -3,7 +3,7 @@ NAMES_LIST = "yob2013.txt"
 boys = {}
 girls = {}
 
-for line in file(NAMES_LIST, 'r').readlines():
+for line in open(NAMES_LIST, 'r').readlines():
     name, gender, count = line.strip().split(",")
     count = int(count)
 
