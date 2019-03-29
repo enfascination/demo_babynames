@@ -5,7 +5,7 @@ def loadSSADataByGender( year, dgender ):
     gender can be "M" or "F"
     this function assumes that the working directory contains the social security administration's annual public "yobYYYY.txt" files
     """
-    NAMES_LIST = "yob" + str(year) + ".txt"
+    NAMES_LIST = "data/" + "yob" + str(year) + ".txt"
     boys = {}
     girls = {}
     for line in open(NAMES_LIST, 'r').readlines():
