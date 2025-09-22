@@ -3,7 +3,7 @@ import gzip
 def loadSSADataByGender( path, dgender ):
     """
     Takes a year and a gender and  returns a dictionary mapping all names within that gender to its number of occurrences.
-    year, an integer,  is everything 1990 to 2017 (and 1970)
+    year, an integer,  is everything 1880 to present minus one year
     gender can be "M" or "F"
     this function assumes that the working directory contains the social security administration's annual public "yobYYYY.txt" files
     """
